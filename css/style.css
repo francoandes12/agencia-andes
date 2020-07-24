@@ -19,45 +19,45 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 nav {
   background-color: #0cf0c6;
 }
-nav ul{
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-nav ul li{
+nav ul li {
   padding: 10px;
   margin-bottom: 10px;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: black;
   background-color: white;
 }
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
 }
-.navegacion h1 a{
+.navegacion h1 a {
   color: white;
   text-decoration: none;
   font-size: 40px;
 }
-.navegacion h1 a:hover{
+.navegacion h1 a:hover {
   color: black;
 }
-.navegacion ul{
+.navegacion ul {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 768px) {
-  .navegacion ul{
+  .navegacion ul {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -92,13 +92,13 @@ nav ul li a{
 h3 {
   flex: 0 1 100%;
 }
-.principal h2{
+.principal h2 {
   font-size: 35px;
 }
 .principal h3 {
   font-size: 30px;
 }
-.principal .promo{
+.principal .promo {
   background-color: grey;
 }
 .promo span {
@@ -106,7 +106,7 @@ h3 {
   font-size: 30px;
   text-transform: uppercase;
 }
-.promo p{
+.promo p {
   color: black;
   font-size: 18px;
   font-weight: bold;
@@ -123,7 +123,7 @@ h3 {
   flex: 0 1 30%;
   color: #0082c8;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
 .pie .pie-ul {
@@ -151,4 +151,44 @@ h3 {
     padding: 30px;
     margin-top: 20px;
   }
+}
+@media (min-width: 768px) {
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo_caja {
+    align-self: flex-start;
+    flex: 1;
+  }
+  .titulo_img {
+    max-width: 60%;
+    flex: 1;
+  }
+  .titulo_img img{
+    width: 700px;
+  }
+  .contenedor1 {
+    display: flex;
+  }
+}
+.titulo_caja{
+  justify-content: flex-start;
+  width: 70%;
+}
+.titulo_img img{
+  width: 100%;
+}
+.contenedor1 div,
+.titulo div {
+  color: white;
+  margin: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+}
+.caja1, .caja2 {
+  flex: 1;
 }
