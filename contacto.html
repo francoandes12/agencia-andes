@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andes- tu agencia de viajes</title>
+    <title>Contacto</title>
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -15,9 +15,9 @@
   <body>
     <div class="contenedor">
       <header>
-        <nav class="navegacion">
-          <h1><a href="index.html">Andes Agencia</a></h1>
-          <ul>
+        <nav>
+          <ul class="navegacion">
+            <h1>Andes Agencia</h1>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="destino.html">Destinos</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
@@ -25,7 +25,23 @@
           </ul>
         </nav>
       </header>
-      <main class="principal">
+      <main class="main-contact">
+        <h1 class="h1-title">Formulario de contacto</h1>
+    <form class="form">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name"> <br>
+        <label for="number">Edad:</label>
+        <input type="number" name="number"> <br>
+        <label for="email">Mail:</label>
+        <input type="email" name="email"> <br>
+        <label for="tel">Telefono:</label>
+        <input type="tel" name="tel"> <br>
+        <input type="radio" name="gender" value="male"> 
+        <label for="male">Masculino</label>
+        <input type="radio" name="gender" value="female"> 
+        <label for="female">Femenino</label> <br>
+        <input type="file" name="" id=""> <br>
+    </form>
       </main>
       <footer>
         <div class="pie">
