@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="contenedor">
-      <header>
-        <nav>
-          <ul class="navegacion">
-            <h1>Andes Agencia</h1>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="destino.html">Destinos</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main class="main-contact">
-        <h1 class="h1-title">Formulario de contacto</h1>
-    <form class="form">
-        <label for="name">Nombre:</label>
-        <input type="text" name="name"> <br>
-        <label for="number">Edad:</label>
-        <input type="number" name="number"> <br>
-        <label for="email">Mail:</label>
-        <input type="email" name="email"> <br>
-        <label for="tel">Telefono:</label>
-        <input type="tel" name="tel"> <br>
-        <input type="radio" name="gender" value="male"> 
-        <label for="male">Masculino</label>
-        <input type="radio" name="gender" value="female"> 
-        <label for="female">Femenino</label> <br>
-        <input type="file" name="" id=""> <br>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de contacto</title>
+  <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="contenedor">
+    <header>
+      <nav>
+        <ul class="navegacion">
+          <h1>Andes Agencia</h1>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destino.html">Destinos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <main>
+    <div class="2contenedor">
+      <div class="form-header">
+        <h1 class="h1-title">C<span>ontacto</span></h1>
+      </div>
+      <form class="form">
+        <label for="name" class="form-label">Nombre:</label>
+        <input type="text" name="name" id="form-input" placeholder="Escriba su nombre."> <br>
+        <label for="name" class="form-label">Apellido:</label>
+        <input type="text" name="name" id="form-input" placeholder="Escriba su Apellido."> <br>
+        <label for="number" class="form-label">Edad:</label>
+        <input type="number" name="number" id="form-input" placeholder="Escriba su edad."> <br>
+        <label for="tel" class="form-label">Telefono:</label>
+        <input type="tel" name="tel" id="telefono" placeholder="Escriba su telefono"> <br>
+        <label for="email" class="form-label">Mail:</label>
+        <input type="email" name="email" id="correo" placeholder="Escriba su email."> <br>
+        <label for="mensaje" class="form-label">Mensaje:</label>
+        <textarea name="mensaje" id="form-textarea" placeholder="Dejanos tu msj aqui.""></textarea> <br>
+        
+        <input type="submit" class="btn-submit" value="Enviar Consulta">
     </form>
+  </div>
       </main>
       <footer>
         <div class="pie">
