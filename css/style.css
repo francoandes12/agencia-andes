@@ -342,3 +342,6 @@ img:hover {
   padding: 15px 0;
   cursor: pointer;
 }
+.pie-ul {
+  font-family: 'Oswald', sans-serif;
+}
