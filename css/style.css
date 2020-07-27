@@ -283,3 +283,51 @@ h3 {
 .form2 .contenedor2 .btn-submit:hover {
   background: #667db6;
 }
+.principal2 h2 {
+  flex: 0 1 100%;
+  color: white;
+  font-size: 40px;
+}
+img {
+  max-width: 100%;
+  transition: transform 0.5s ease;
+}
+img:hover {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 480px) {
+  .principal2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .principal2 .card {
+    flex: 0 1 calc(50% - 1rem);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  img {
+    width: 100%;
+    height: 215px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .principal2 .card {
+    flex: 0 1 calc(33% - 1rem);
+  }
+  img {
+    width: 100%;
+    height: 350px;
+  }
+}
+.card {
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
+.card h3 {
+  font-size: 30px;
+}
+.card p {
+  font-size: 20px;
+}
