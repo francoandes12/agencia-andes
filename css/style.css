@@ -74,7 +74,6 @@ nav ul li a {
 .promo {
   margin-top: 20px;
   width: 100%;
-  border: 2px solid black;
   height: auto;
 }
 .promo img {
@@ -87,7 +86,7 @@ nav ul li a {
 }
 @media screen and (min-width: 768px) {
   .principal {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .principal .promo {
     flex: 0 1 calc(50% - 1rem) !important;
@@ -122,12 +121,19 @@ h3 {
   font-size: 25px;
 }
 .principal .promo {
-  background-color: grey;
+  background-color:rgba(0, 0, 0, 0.35);
 }
-.promo span {
+.promo .Nombre {
   color: white;
   font-size: 26px;
   text-transform: uppercase;
+}
+.promo .Precio {
+  color: red;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
 }
 .promo p {
   color: black;
