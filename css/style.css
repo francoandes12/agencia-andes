@@ -292,7 +292,7 @@ img {
   max-width: 100%;
   transition: transform 0.5s ease;
 }
-img:hover {
+.card img:hover {
   transform: scale(1.2);
 }
 @media screen and (min-width: 480px) {
